@@ -1,0 +1,11 @@
+.work-item__tag {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: cornsilk;
+    border-width: 1px;
+    border-color: burlywood;
+    border-style: solid;
+    padding: 0 5px;
+}

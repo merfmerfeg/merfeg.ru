@@ -1,0 +1,9 @@
+.author {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.author__text {
+    margin: 10px auto;
+}

@@ -1,0 +1,28 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.contact-container {
+    width: 640px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+.contact-container:first-child {
+    margin-left: 0px;
+}
+
+@media (max-width : 650px) {
+    .contact-container {
+        width: 60%;
+    }
+}

@@ -1,0 +1,4 @@
+.work-item__tags-container {
+    display: flex;
+    flex-wrap: wrap;
+}

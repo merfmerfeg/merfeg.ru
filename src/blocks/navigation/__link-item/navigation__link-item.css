@@ -1,0 +1,10 @@
+.navigation__link-item {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.5s; 
+}
+
+.navigation__link-item:hover {
+    color:  rgb(255, 150, 70);
+    transition: color 0.5s; 
+}

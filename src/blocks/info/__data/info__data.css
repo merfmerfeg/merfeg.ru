@@ -1,0 +1,10 @@
+.info__data {
+    padding-left: 10px;
+    width: calc(100% - 260px);
+}
+
+@media (max-width : 600px) {
+    .info__data {
+        width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+.navigation__list {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
