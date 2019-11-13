@@ -1,0 +1,22 @@
+@import url("../work-item/__content/work-item__content.css");
+@import url("../work-item/__description/work-item__description.css");
+@import url("../work-item/__header/work-item__header.css");
+@import url("../work-item/__lang/work-item__lang.css");
+@import url("../work-item/__link/work-item__link.css");
+@import url("../work-item/__tag/work-item__tag.css");
+@import url("../work-item/__tags-container/work-item__tags-container.css");
+@import url("../work-item/__title/work-item__title.css");
+
+.work-item {
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px;
+}
+
+@media (max-width : 768px) {
+    .work-item {
+        width: 100%;
+    }
+}

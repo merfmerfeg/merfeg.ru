@@ -1,0 +1,133 @@
+/**/
+.page {
+    /* минимальная ширина страницы */
+    /*min-width: 1440px;*/
+    /* ограничение по максимальной ширине */
+    /*max-width: 1600px;*/
+    /* для экранов больше 1600px отцентрировали весь контент */
+    margin: 0 auto;
+
+    font-family: 'Inter';
+    color: rgb(122, 122, 122);
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+}
+
+/*Удаление отступов по умолчанию у заголовков и абзацев*/
+h1, h2, h3, h4, h5, p { margin: 0; }
+
+
+
+/*
+a:link, a:visited {
+    color: #FFFFFF; 
+
+    opacity: 1;     
+    transition: opacity 0.2s; 
+}
+
+
+a:hover {
+    opacity: 0.7; 
+    transition: opacity 0.2s; 
+    color: rgb(240, 96, 0);
+}
+*/
+
+/*Настройки по умолчанию для списков*/
+li {
+    list-style-type: none; /*маркеры списка*/
+}
+ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.content-title_video, .content-title_additional, .content-title_comments {
+    margin: 0 auto 48px;
+}
+
+.content-subtitle_video, .content-subtitle_additional, .content-subtitle_comments {
+    margin: 0 auto 72px;
+}
+
+.header_position {
+    margin: 30px auto 0;
+}
+.greeting_position {
+    margin: 48px auto 0;
+}
+.about_position {
+    margin: 60px auto 0;
+}
+.skills_position {
+    margin: 60px auto 0;
+}
+
+
+@media (max-width : 768px) {
+    .content-title_video, .content-title_additional, .content-title_comments {
+        margin: 0 auto 24px;
+    }
+    .content-subtitle_video, .content-subtitle_additional, .content-subtitle_comments {
+        margin: 0 auto 76px;
+    }
+
+    .header_position {
+        margin: 30px auto 0;
+    }
+    .greeting_position {
+        margin: 48px auto 0;
+    }
+    .about_position {
+        margin: 60px auto 0;
+    }   
+    .skills_position {
+        margin: 60px auto 0;
+    }
+}
+
+/* стили для широкого смартфона */
+@media (max-width : 425px) {
+    .content-title_video, .content-title_additional, .content-title_comments {
+        margin: 0 auto 16px;
+    }
+    
+    .content-subtitle_video, .content-subtitle_additional, .content-subtitle_comments {
+        margin: 0 auto 24px;
+    }
+
+    .header_position {
+        margin: 16px auto 0;
+    }
+    .greeting_position {
+        margin: 48px auto 0;
+    }
+    .about_position {
+        margin: 60px auto 0;
+    }
+    .skills_position {
+        margin: 60px auto 0;
+    }
+}
+
+
+/* ===для отладки=== */
+
+/* div{
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red
+}
+section{
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: green
+}
+h1, h2, h3, h4, h5, p {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: yellow
+} */

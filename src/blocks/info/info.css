@@ -1,0 +1,36 @@
+@import url("../info/__about-me/info__about-me.css");
+@import url("../info/__button-resume/info__button-resume.css");
+@import url("../info/__contact/info__contact.css");
+@import url("../info/__data/info__data.css");
+@import url("../info/__details/info__details.css");
+@import url("../info/__foto/info__foto.css");
+@import url("../info/__download/info__download.css");
+@import url("../info/__title/info__title.css");
+@import url("../info/__subtitle/info__subtitle.css");
+
+.info {
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width : 600px) {
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

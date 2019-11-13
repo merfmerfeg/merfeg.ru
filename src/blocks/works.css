@@ -1,0 +1,15 @@
+.works {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(235, 238, 238);
+}
+
+.works-container {
+    width: 90%;
+    max-width: 1154px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto 0;
+}

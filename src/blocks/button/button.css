@@ -1,0 +1,20 @@
+.button {
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+
+    cursor: pointer;
+    height: auto;
+    text-decoration: none;
+    padding: 12px 20px;
+
+    border-radius: 5px;
+
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.button:hover {
+    background-color: rgb(255, 180, 120);
+    color: black;
+
+    transition: color 0.5s, background-color 0.5s;
+}

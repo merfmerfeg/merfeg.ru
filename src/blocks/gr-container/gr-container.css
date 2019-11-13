@@ -1,0 +1,36 @@
+.gr-container {
+    background-image: url(../../images/treeorange.jpg);
+    width: 100%;
+    height: 95vh;
+    min-height: 500px;
+    position: relative;
+    background-size: cover !important; 
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gr-container__title {
+    margin-top: 30vh;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.gr-container__subtitle {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    max-width: 50vw;
+}
+
+@media (max-width: 425px) {
+    .gr-container__subtitle {
+        max-width: none;
+        width: 90%;
+    }
+}

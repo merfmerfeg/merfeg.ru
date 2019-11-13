@@ -1,0 +1,17 @@
+.skills {
+    padding-top: 20px;
+    background-color: white;
+    color: rgb(131, 140, 149);
+}
+
+.skill-container {
+    max-width: 1154px;
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width : 600px) {
+    .skill-container {
+        width: 90%;
+    }
+}

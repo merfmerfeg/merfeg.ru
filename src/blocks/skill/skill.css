@@ -1,0 +1,19 @@
+@import url("../skill/__description/skill__description.css");
+@import url("../skill/__item/skill__item.css");
+@import url("../skill/__name-text/skill__name-text.css");
+@import url("../skill/__name/skill__name.css");
+@import url("../skill/__subtitle/skill__subtitle.css");
+@import url("../skill/__title/skill__title.css");
+
+.skill {
+    display: flex;
+    margin: 10px auto 0;
+    padding-top: 10px;
+}
+
+@media (max-width : 600px) {
+    .skill {
+        flex-direction: column;
+        align-items: center;
+    }
+}

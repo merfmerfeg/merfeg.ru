@@ -1,0 +1,14 @@
+.skill__name-text {
+    width: 90%;
+    padding-bottom: 6px;
+    border-bottom: 3px solid rgb(255, 150, 70);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width : 600px) {
+    .skill__name-text {
+        margin-bottom: 10px;
+    }
+}
